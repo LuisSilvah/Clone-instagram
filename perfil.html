@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/eff49d4f2c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Style/perfil.css">
+    <title>Instagram</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            
+        <a  href="#">
+            <img class="logo-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" width="150px">
+        </a>
+        </div>
+        <div class="search-wrapper">  
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="feather feather-search" viewBox="0 0 24 24">
+            <defs></defs>
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="M21 21l-4.35-4.35"></path>
+          </svg>
+            <input class="search-input" type="text" placeholder="Search">
+          
+          </div>  
+
+        <nav>
+            <ul class="menu-item">
+                <li class="item-list">
+                    <a href="feed.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                        <polyline points="9 22 9 12 15 12 15 22" /></svg></a>
+                    </li>
+                <li class="item-list notification"><i class="far fa-comment"></i></li>
+                <li class="item-list"><i class="far fa-compass"></i></li>
+                <li class="item-list"><i class="far fa-heart"></i></li>
+                <li class="item-list profile-image">
+                    <div class="dropdown">
+                        <button class="drop-btn">
+                            <img src="Imagens/170675248_362760638343411_9076608171331709568_n.jpg " alt="Profile image" srcset=""/>
+                        </button>
+                        <div class="dropdown-content">
+                            <div class="losango">
+                                <div class="metade-superior"></div>
+                            </div>
+                            <a href="perfil.html">
+                                <svg aria-label="Perfil" class="_8-yf5 " color="#262626" fill="#262626" height="16" role="img" viewBox="0 0 32 32" width="16"><path d="M16 0C7.2 0 0 7.1 0 16c0 4.8 2.1 9.1 5.5 12l.3.3C8.5 30.6 12.1 32 16 32s7.5-1.4 10.2-3.7l.3-.3c3.4-3 5.5-7.2 5.5-12 0-8.9-7.2-16-16-16zm0 29c-2.8 0-5.3-.9-7.5-2.4.5-.9.9-1.3 1.4-1.8.7-.5 1.5-.8 2.4-.8h7.2c.9 0 1.7.3 2.4.8.5.4.9.8 1.4 1.8-2 1.5-4.5 2.4-7.3 2.4zm9.7-4.4c-.5-.9-1.1-1.5-1.9-2.1-1.2-.9-2.7-1.4-4.2-1.4h-7.2c-1.5 0-3 .5-4.2 1.4-.8.6-1.4 1.2-1.9 2.1C4.2 22.3 3 19.3 3 16 3 8.8 8.8 3 16 3s13 5.8 13 13c0 3.3-1.2 6.3-3.3 8.6zM16 5.7c-3.9 0-7 3.1-7 7s3.1 7 7 7 7-3.1 7-7-3.1-7-7-7zm0 11c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4z"></path></svg>
+                                Perfil
+                            </a>
+                            <a href="#">
+                                <svg aria-label="Salvos" class="_8-yf5 " color="#262626" fill="#262626" height="10" role="img" viewBox="0 0 48 48" width="10"><path d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"></path></svg>
+                                Salvos
+                            </a>
+                            <a href="#">
+                                <svg aria-label="Configurações" class="_8-yf5 " color="#262626" fill="#262626" height="16" role="img" viewBox="0 0 32 32" width="16"><path d="M31.2 13.4l-1.4-.7c-.1 0-.2-.1-.2-.2v-.2c-.3-1.1-.7-2.1-1.3-3.1v-.1l-.2-.1v-.3l.5-1.5c.2-.5 0-1.1-.4-1.5l-1.9-1.9c-.4-.4-1-.5-1.5-.4l-1.5.5H23l-.1-.1h-.1c-1-.5-2-1-3.1-1.3h-.2c-.1 0-.1-.1-.2-.2L18.6.9c-.2-.5-.7-.9-1.2-.9h-2.7c-.5 0-1 .3-1.3.8l-.7 1.4c0 .1-.1.2-.2.2h-.2c-1.1.3-2.1.7-3.1 1.3h-.1l-.1.2h-.3l-1.5-.5c-.5-.2-1.1 0-1.5.4L3.8 5.7c-.4.4-.5 1-.4 1.5l.5 1.5v.5c-.5 1-1 2-1.3 3.1v.2c0 .1-.1.1-.2.2l-1.4.7c-.6.2-1 .7-1 1.2v2.7c0 .5.3 1 .8 1.3l1.4.7c.1 0 .2.1.2.2v.2c.3 1.1.7 2.1 1.3 3.1v.1l.2.1v.3l-.5 1.5c-.2.5 0 1.1.4 1.5l1.9 1.9c.3.3.6.4 1 .4.2 0 .3 0 .5-.1l1.5-.5H9l.1.1h.1c1 .5 2 1 3.1 1.3h.2c.1 0 .1.1.2.2l.7 1.4c.2.5.7.8 1.3.8h2.7c.5 0 1-.3 1.3-.8l.7-1.4c0-.1.1-.2.2-.2h.2c1.1-.3 2.1-.7 3.1-1.3h.1l.1-.1h.3l1.5.5c.1 0 .3.1.5.1.4 0 .7-.1 1-.4l1.9-1.9c.4-.4.5-1 .4-1.5l-.5-1.5V23l.1-.1v-.1c.5-1 1-2 1.3-3.1v-.2c0-.1.1-.1.2-.2l1.4-.7c.5-.2.8-.7.8-1.3v-2.7c0-.5-.4-1-.8-1.2zM16 27.1c-6.1 0-11.1-5-11.1-11.1S9.9 4.9 16 4.9s11.1 5 11.1 11.1-5 11.1-11.1 11.1z"></path></svg>
+                                Configurações	
+                            </a>
+                            <a href="#">
+                                <svg aria-label="Trocar de conta" class="_8-yf5 " color="#262626" fill="#262626" height="16" role="img" viewBox="0 0 32 32" width="16"><path d="M10.3 10.7c0-.8-.7-1.5-1.5-1.5H4.9C7.2 5.4 11.4 3 16 3c3.6 0 7 1.5 9.5 4.1.5.6 1.5.6 2.1.1.6-.6.6-1.5.1-2.1-3-3.2-7.3-5-11.7-5C10.7 0 6 2.5 3 6.7V3.5C3 2.7 2.3 2 1.5 2S0 2.7 0 3.5v7.2c0 .8.7 1.5 1.5 1.5h7.3c.8 0 1.5-.6 1.5-1.5zm20.2 9.1h-7.2c-.8 0-1.5.7-1.5 1.5s.7 1.5 1.5 1.5h3.8C24.8 26.6 20.6 29 16 29c-3.6 0-7-1.5-9.5-4.1-.5-.6-1.5-.6-2.1-.1-.6.6-.6 1.5-.1 2.1 3 3.2 7.3 5 11.7 5 5.3 0 10-2.5 13-6.7v3.2c0 .8.7 1.5 1.5 1.5s1.5-.7 1.5-1.5v-7.2c0-.8-.7-1.4-1.5-1.4z"></path></svg>
+                                Trocar de conta
+                            </a>
+                            <a href="index.html">
+                                Sair
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- <a href="perfil.html">
+                    <img src="Imagens/170675248_362760638343411_9076608171331709568_n.jpg " alt="Profile image" srcset=""/>
+                </a> -->
+            </li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <section>
+            <div class="profile">
+            <div class="perfil-image">
+                <img src="Imagens/170675248_362760638343411_9076608171331709568_n.jpg" alt="image profile" srcset="">
+            </div>
+
+            <div class="profile-header">
+                <div class="profile-config">
+                    <div class="username config">
+                        <a href="#">_luis.silvah</a>
+                    </div>
+                <div class="editar-button config">
+                    <button>Editar perfil</button>
+                </div>
+                <div class="config-button config">
+                    <svg aria-label="Configurações" class="_8-yf5 " color="#262626" fill="#262626" 
+                    height="26" role="img" viewBox="0 0 32 32" width="26"><path d="M31.2 13.4l-1.4-.7c-.1 0-.2-.1-.2-.2v-.2c-.3-1.1-.7-2.1-1.3-3.1v-.1l-.2-.1v-.3l.5-1.5c.2-.5 0-1.1-.4-1.5l-1.9-1.9c-.4-.4-1-.5-1.5-.4l-1.5.5H23l-.1-.1h-.1c-1-.5-2-1-3.1-1.3h-.2c-.1 0-.1-.1-.2-.2L18.6.9c-.2-.5-.7-.9-1.2-.9h-2.7c-.5 0-1 .3-1.3.8l-.7 1.4c0 .1-.1.2-.2.2h-.2c-1.1.3-2.1.7-3.1 1.3h-.1l-.1.2h-.3l-1.5-.5c-.5-.2-1.1 0-1.5.4L3.8 5.7c-.4.4-.5 1-.4 1.5l.5 1.5v.5c-.5 1-1 2-1.3 3.1v.2c0 .1-.1.1-.2.2l-1.4.7c-.6.2-1 .7-1 1.2v2.7c0 .5.3 1 .8 1.3l1.4.7c.1 0 .2.1.2.2v.2c.3 1.1.7 2.1 1.3 3.1v.1l.2.1v.3l-.5 1.5c-.2.5 0 1.1.4 1.5l1.9 1.9c.3.3.6.4 1 .4.2 0 .3 0 .5-.1l1.5-.5H9l.1.1h.1c1 .5 2 1 3.1 1.3h.2c.1 0 .1.1.2.2l.7 1.4c.2.5.7.8 1.3.8h2.7c.5 0 1-.3 1.3-.8l.7-1.4c0-.1.1-.2.2-.2h.2c1.1-.3 2.1-.7 3.1-1.3h.1l.1-.1h.3l1.5.5c.1 0 .3.1.5.1.4 0 .7-.1 1-.4l1.9-1.9c.4-.4.5-1 .4-1.5l-.5-1.5V23l.1-.1v-.1c.5-1 1-2 1.3-3.1v-.2c0-.1.1-.1.2-.2l1.4-.7c.5-.2.8-.7.8-1.3v-2.7c0-.5-.4-1-.8-1.2zM16 27.1c-6.1 0-11.1-5-11.1-11.1S9.9 4.9 16 4.9s11.1 5 11.1 11.1-5 11.1-11.1 11.1z"></path></svg>           
+                </div>
+            </div>
+            <div class="profile-status">
+                <span><b>6</b> publicações</span>
+                <span><b>931</b> seguidores</span> 
+                <span><b>515</b> seguindo</span>
+            </div>
+            <div class="profile-bio">
+                <div class="bio-name"><h1>Luis Gustavo</h1></div>
+                <div class="bio-status"><span>Por pura diversão</span></div>
+                <div class="bio-content">
+                    <span>|• Sumaré SP</span>
+                    <span>|• 1.6</span>
+                    <span>|• Chama na dm</span>
+                    <span>|• Técnico de Informática 2/4 🎓</span>
+                    <span>|• A Vida é Feita de Novos Começos 🍃</span>
+                </div>
+            </div>    
+
+
+            </div>
+            </div> 
+        </section>
+
+        <section>
+            <div class="post">
+                <div class="post-header">
+                    <div class="item active">
+                        <svg aria-label="" class="_8-yf5 " color="#262626" fill="#262626" height="12" role="img" viewBox="0 0 48 48" width="12"><path clip-rule="evenodd" d="M45 1.5H3c-.8 0-1.5.7-1.5 1.5v42c0 .8.7 1.5 1.5 1.5h42c.8 0 1.5-.7 1.5-1.5V3c0-.8-.7-1.5-1.5-1.5zm-40.5 3h11v11h-11v-11zm0 14h11v11h-11v-11zm11 25h-11v-11h11v11zm14 0h-11v-11h11v11zm0-14h-11v-11h11v11zm0-14h-11v-11h11v11zm14 28h-11v-11h11v11zm0-14h-11v-11h11v11zm0-14h-11v-11h11v11z" fill-rule="evenodd"></path></svg>
+                        <span>PUBLICAÇÕES</span>
+                    </div>
+                    <div class="item">
+                        <svg aria-label="" class="_8-yf5 " color="#8e8e8e" fill="#8e8e8e" height="12" role="img" viewBox="0 0 24 24" width="12"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.6 0 12 0zm0 22.5C6.2 22.5 1.5 17.8 1.5 12S6.2 1.5 12 1.5 22.5 6.2 22.5 12 17.8 22.5 12 22.5zm5-11.8l-6.8-3.9c-.5-.3-1-.3-1.5 0-.4.3-.7.7-.7 1.3v7.8c0 .5.3 1 .8 1.3.2.1.5.2.8.2s.5-.1.8-.2l6.8-3.9c.5-.3.8-.8.8-1.3s-.5-1-1-1.3zm-7.5 5.2V8.1l6.8 3.9-6.8 3.9z"></path></svg>
+                        <span>VIDEOS</span>
+                    </div>
+                    <div class="item">
+                        <svg aria-label="" class="_8-yf5 " color="#8e8e8e" fill="#8e8e8e" height="12" role="img" viewBox="0 0 48 48" width="12"><path d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"></path></svg>
+                        <span>SALVOS</span>
+                    </div>
+                    <div class="item">
+                        <svg aria-label="" class="_8-yf5 " color="#8e8e8e" fill="#8e8e8e" height="12" role="img" viewBox="0 0 48 48" width="12"><path d="M41.5 5.5H30.4c-.5 0-1-.2-1.4-.6l-4-4c-.6-.6-1.5-.6-2.1 0l-4 4c-.4.4-.9.6-1.4.6h-11c-3.3 0-6 2.7-6 6v30c0 3.3 2.7 6 6 6h35c3.3 0 6-2.7 6-6v-30c0-3.3-2.7-6-6-6zm-29.4 39c-.6 0-1.1-.6-1-1.2.7-3.2 3.5-5.6 6.8-5.6h12c3.4 0 6.2 2.4 6.8 5.6.1.6-.4 1.2-1 1.2H12.1zm32.4-3c0 1.7-1.3 3-3 3h-.6c-.5 0-.9-.4-1-.9-.6-5-4.8-8.9-9.9-8.9H18c-5.1 0-9.4 3.9-9.9 8.9-.1.5-.5.9-1 .9h-.6c-1.7 0-3-1.3-3-3v-30c0-1.7 1.3-3 3-3h11.1c1.3 0 2.6-.5 3.5-1.5L24 4.1 26.9 7c.9.9 2.2 1.5 3.5 1.5h11.1c1.7 0 3 1.3 3 3v30zM24 12.5c-5.3 0-9.6 4.3-9.6 9.6s4.3 9.6 9.6 9.6 9.6-4.3 9.6-9.6-4.3-9.6-9.6-9.6zm0 16.1c-3.6 0-6.6-2.9-6.6-6.6 0-3.6 2.9-6.6 6.6-6.6s6.6 2.9 6.6 6.6c0 3.6-3 6.6-6.6 6.6z"></path></svg>
+                        <span>MACADOS</span>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-content">
+                        <img src="Imagens/143149467_225548675888015_6226568944304792395_n.jpg" alt="" srcset="">
+                        <div class="post-hover">
+                            <div class="post-icon heart">
+                                <i class="fas fa-heart"></i>
+                                93
+                            </div>
+                            <div class="post-icon comment">
+                                <span>
+                                <i class="fas fa-comment"></i>
+                                10</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post-content">
+                        <img src="Imagens/143284087_246640573504329_2119412272932544079_n.jpg" alt="" srcset="">
+                        <div class="post-hover">
+                            <div class="post-icon heart">
+                                <i class="fas fa-heart"></i>
+                                93
+                            </div>
+                            <div class="post-icon comment">
+                                <span>
+                                <i class="fas fa-comment"></i>
+                                10</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="post-content">
+                        <img src="Imagens/170675248_362760638343411_9076608171331709568_n.jpg" alt="" srcset="">
+                        <div class="post-hover">
+                            <div class="post-icon heart">
+                                <i class="fas fa-heart"></i>
+                                93
+                            </div>
+                            <div class="post-icon comment">
+                                <span>
+                                <i class="fas fa-comment"></i>
+                                10</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="post-content">
+                        <img src="https://th.bing.com/th/id/OIP.pgvDlCfnnH-PUOJwAwhW_AHaJQ?pid=ImgDet&rs=1" alt="" srcset="">
+                        <div class="post-hover">
+                            <div class="post-icon heart">
+                                <i class="fas fa-heart"></i>
+                                93
+                            </div>
+                            <div class="post-icon comment">
+                                <span>
+                                <i class="fas fa-comment"></i>
+                                10</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </article>
+
+
+    <footer>
+<!-- 
+
+Blog
+Carreiras
+Ajuda
+API
+Privacidade
+Termos
+Principais contas
+Hashtags
+Localizações
+Instagram Lite
+
+Português (Brasil)
+© 2021 Instagram do Facebook
+
+ -->
+        <div class="footer-description">
+            <a href="#">Sobre</a>
+            <a href="#">Blog</a>
+            <a href="#">Carreiras</a>
+            <a href="#">Ajuda</a>
+            <a href="#">API</a>
+            <a href="#">Privacidade</a>
+            <a href="#">Termos</a>
+            <a href="#">Principais contas</a>
+            <a href="#">Hashtags</a>
+            <a href="#">Localizações</a>
+            <a href="#">Instagram Lite</a>
+        </div>
+        <div class="footer-credits">
+            <a href="#">Português (Brasil)</a>
+            <a href="#">© 2021 Instagram do Facebook</a>
+        </div>
+    
+    </footer>
+</body>
+</html>
